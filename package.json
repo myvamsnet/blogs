@@ -1,0 +1,19 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/css/main.css -o ./src/css/style.css",
+    "watch": "npx tailwindcss -i ./src/css/main.css -o ./src/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  },
+  "dependencies": {
+    "lucide": "^0.460.0"
+  }
+}

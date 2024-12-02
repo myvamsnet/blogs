@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>My Blog Page</title>
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+    />
+  </head>
+  <body class="font-poppins">
+    <header class="px-5 py-[1.563rem] bg-white sticky top-0 z-20">
+      <nav class="wrapper flex justify-between items-center">
+        <div class="flex items-center gap-12">
+          <a href="">
+            <img
+              src="https://courses.webdevsimplified.com/content-assets/public/eyJhbGciOiJIUzI1NiJ9.eyJvYmplY3Rfa2V5IjoiY2IxbHg1eHJ4YXNvMnlocGl3cjg3cnUyamlteCIsImRvbWFpbiI6ImNvdXJzZXMud2ViZGV2c2ltcGxpZmllZC5jb20ifQ.sih852orbsVSqbH_Ks85JUnpFSN_KbXaS39KKMM_WhM"
+              alt="Logo"
+              width="52"
+            />
+          </a>
+          <menu class="md:flex hidden items-center gap-4">
+            <li>
+              <a
+                href="#"
+                class="text-dark text-base font-inter"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-dark text-base"
+              >
+                Yoube</a
+              >
+            </li>
+          </menu>
+        </div>
+        <div class="">
+          <button class="btn md:block hidden">Login</button>
+          <img
+            src="./image/menuIcon.svg"
+            alt="Menu Icon"
+            class="md:hidden block"
+          />
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="bg-dark px-5 py-6 text-white text-center">
+        <div class="wrapper content space-y-4 w-full">
+          <h2 class="text-[2.188rem]">Stay Up To Date</h2>
+
+          <p class="font-light text-xl opacity-80">
+            Join my newsletter for up to date information on everything Web Dev
+            Simplified as well as free tips and tutorials.
+          </p>
+
+          <form
+            class="flex items-center gap-3 justify-center md:flex-row flex-col"
+          >
+            <div class="flex items-center gap-3">
+              <input
+                type="text"
+                placeholder="Name"
+                class="h-[55px] md:w-[253px] w-full py-3 px-5 outline-none rounded"
+              />
+              <input
+                type="text"
+                placeholder="Email"
+                class="h-[55px] md:w-[253px] w-full py-3 px-5 outline-none rounded"
+              />
+            </div>
+            <button class="btn h-[55px] md:w-[135.24px] w-full">
+              Join Now
+            </button>
+          </form>
+          <p class="font-light text-xl opacity-80">
+            You're signing up to receive emails from Web Dev Simplified
+          </p>
+        </div>
+      </section>
+
+      <article class="wrapper px-5 py-[2.813rem] md:space-y-10 space-y-8">
+        <!-- Posts 1 -->
+        <section class="bg-white flex gap-8 items-center md:flex-row flex-col">
+          <img
+            src="https://courses.webdevsimplified.com/content-assets/public/eyJhbGciOiJIUzI1NiJ9.eyJvYmplY3Rfa2V5IjoidWM5d3lpNG5wbXRhNGhiNzhuazR1cHVibXVoMCIsImRvbWFpbiI6ImNvdXJzZXMud2ViZGV2c2ltcGxpZmllZC5jb20ifQ.HNYkKtblTq7qn0BmpBZm-ZJq0sCeJ8AxxiMRHgmHHiQ"
+            alt="JavaScript Simplified"
+            class="max-w-[455px] w-full"
+          />
+          <div class="md:space-y-6 space-y-4">
+            <h2 class="text-3xl leading-[54px]">JavaScript Simplified</h2>
+            <p class="text-dark-100 text-xl font-light">
+              The complete guide to JavaScript. Learn how to build JavaScript
+              projects without getting stuck.
+            </p>
+            <button class="btn w-[170.82px]">View course</button>
+          </div>
+        </section>
+        <!-- Posts 2 -->
+        <section class="bg-white flex gap-8 items-center md:flex-row flex-col">
+          <img
+            src="https://courses.webdevsimplified.com/content-assets/public/eyJhbGciOiJIUzI1NiJ9.eyJvYmplY3Rfa2V5Ijoic2JndGtud3pjcndybTE5NThnOXZtMTEzZjFwMyIsImRvbWFpbiI6ImNvdXJzZXMud2ViZGV2c2ltcGxpZmllZC5jb20ifQ.qQ33HbcEAIWvtxnzdmWZ1CKdZK_a8zQgILnsYcfubeE"
+            class="max-w-[455px] w-full"
+            alt="React Simplified"
+          />
+          <div class="md:space-y-6 space-y-4">
+            <h2 class="text-3xl leading-[54px]">React Simplified</h2>
+            <p class="text-dark-100 text-xl font-light">
+              Learn how to think in components and build any React project you
+              can dream of by taking action instead of just following along with
+              tutorials.
+            </p>
+            <button class="btn w-[170.82px]">View course</button>
+          </div>
+        </section>
+        <!-- Posts 3-->
+        <section class="bg-white flex gap-8 items-center md:flex-row flex-col">
+          <img
+            src="https://courses.webdevsimplified.com/content-assets/public/eyJhbGciOiJIUzI1NiJ9.eyJvYmplY3Rfa2V5IjoicGU1YjE0cmlhM3hmM3hrZjd2cXdlenVoYWI2bCIsImRvbWFpbiI6ImNvdXJzZXMud2ViZGV2c2ltcGxpZmllZC5jb20ifQ.scKsZJTF7lh6KNHXcXESkNZdt5FrDd43NsjTBi9xWUc"
+            class="max-w-[455px] w-full"
+            alt="Next.js Simplified"
+          />
+          <div class="md:space-y-6 space-y-4">
+            <h2 class="text-3xl leading-[54px]">Next.js Simplified</h2>
+            <p class="text-dark-100 text-xl font-light">
+              Learn how to master all of Next.js's complex features like
+              caching, routing, data management so you can build your dream
+              project.
+            </p>
+            <button class="btn w-[170.82px]">View course</button>
+          </div>
+        </section>
+        <!-- Paid Courses1 -->
+        <section class="flex md:flex-row flex-col gap-6 items-center py-5">
+          <div class="md:w-[606.6px] w-full">
+            <img
+              src="https://courses.webdevsimplified.com/content-assets/public/eyJhbGciOiJIUzI1NiJ9.eyJvYmplY3Rfa2V5IjoiY3JieDNyem5odnB5dXJvaWZsaWNmemVqbjA2MCIsImRvbWFpbiI6ImNvdXJzZXMud2ViZGV2c2ltcGxpZmllZC5jb20ifQ.9iXDQAi5wnCxFZOv5kHNZziOlBY6iJaVf9dkDXJZIQQ"
+              alt="JavaScript Simplified"
+            />
+          </div>
+          <div class="flex-1 space-y-3">
+            <h6 class="text-primary text-lg">$60</h6>
+            <h2 class="text-dark-100 text-[1.688rem] font-bold">
+              TypeScript Simplified
+            </h2>
+            <p class="font-openSans text-lg text-dark-100 font-light">
+              Instantly increase your earning potential and learn to build
+              scalable projects in just 5 hours
+            </p>
+            <button class="btn">View course</button>
+          </div>
+        </section>
+        <!-- Paid Courses2 -->
+        <section class="flex md:flex-row flex-col gap-6 items-center py-5">
+          <div class="md:w-[606.6px] w-full">
+            <img
+              src="https://courses.webdevsimplified.com/content-assets/public/eyJhbGciOiJIUzI1NiJ9.eyJvYmplY3Rfa2V5IjoiNnZ4czBteHc0ZGJ1OGVzNGZvZnBudDF5cWo0eSIsImRvbWFpbiI6ImNvdXJzZXMud2ViZGV2c2ltcGxpZmllZC5jb20ifQ.uMPswt7qU39N_gM6kOFQbF65IGIfppZVa7JqlGgSxnI"
+              alt="Learn CSS Today"
+            />
+          </div>
+          <div class="flex-1 space-y-3">
+            <h6 class="text-primary text-lg">$60</h6>
+            <h2 class="text-dark-100 text-[1.688rem] font-bold">
+              Learn CSS Today
+            </h2>
+            <p class="font-openSans text-lg text-dark-100 font-light">
+              Learn modern CSS features and advanced CSS concepts in less than a
+              day with this highly focused project-based CSS course
+            </p>
+            <button class="btn">View course</button>
+          </div>
+        </section>
+        <!-- Paid Courses3 -->
+        <section class="flex md:flex-row flex-col gap-6 items-center py-5">
+          <div class="md:w-[606.6px] w-full">
+            <img
+              src="https://courses.webdevsimplified.com/content-assets/public/eyJhbGciOiJIUzI1NiJ9.eyJvYmplY3Rfa2V5IjoiY3JieDNyem5odnB5dXJvaWZsaWNmemVqbjA2MCIsImRvbWFpbiI6ImNvdXJzZXMud2ViZGV2c2ltcGxpZmllZC5jb20ifQ.9iXDQAi5wnCxFZOv5kHNZziOlBY6iJaVf9dkDXJZIQQ"
+              alt="JavaScript Simplified"
+            />
+          </div>
+          <div class="flex-1 space-y-3">
+            <h6 class="text-primary text-lg">$60</h6>
+            <h2 class="text-dark-100 text-[1.688rem] font-bold">
+              TypeScript Simplified
+            </h2>
+            <p class="font-openSans text-lg text-dark-100 font-light">
+              Instantly increase your earning potential and learn to build
+              scalable projects in just 5 hours
+            </p>
+            <button class="btn">View course</button>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer class="py-4 wrapper md:px-0 px-4">
+      <menu class="flex items-center gap-3">
+        <li>
+          <a
+            href="#"
+            class="text-dark-200 font-openSans text-lg font-light"
+            >Terms of Service</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="text-dark-200 font-openSans text-lg font-light"
+            >Privacy Policy</a
+          >
+        </li>
+      </menu>
+    </footer>
+    <div
+      class="bg-primary h-[56px] w-[56px] rounded-full text-white shadow-lg flex justify-center items-center fixed bottom-10 right-10"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="lucide lucide-message-circle-code"
+      >
+        <path d="M10 9.5 8 12l2 2.5" />
+        <path d="m14 9.5 2 2.5-2 2.5" />
+        <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z" />
+      </svg>
+    </div>
+  </body>
+</html>
